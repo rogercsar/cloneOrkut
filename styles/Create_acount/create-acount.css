@@ -5,15 +5,17 @@
     height: 80vh;
     background-color: #ffffff;
     margin: auto;
-    margin-top: 3%; 
-
+    margin-top: 3%;
+    
     border-radius: 20px;
     box-shadow: 10px 10px 27px 1px rgba(64,61,61,0.75);
 -webkit-box-shadow: 10px 10px 27px 1px rgba(64,61,61,0.75);
 -moz-box-shadow: 10px 10px 27px 1px rgba(64,61,61,0.75);
+
     display: flex;
     justify-content: center;
     align-items: center;
+
 
 }
 
@@ -30,7 +32,6 @@
     font-size: 13px;
     font-weight: bold;
     color: rgb(26, 26, 26);    
-    margin-top: 40px;
     margin-bottom: 5%;
 }
 
@@ -47,36 +48,29 @@
     height: 40px;
     width: 250px;
     border: 1px solid silver;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-bottom: 3%;
 }
 
 .fields__remember{
+    margin-bottom: 30px;
     cursor: pointer;
     font-size: 14px;
-    display: flex;
-    justify-content: center;
-    margin: 10px 0 50px 0;
-}
-
-.fields__remember > input {
-    margin: 0 8px;
 }
 
 #btnLogin{
-    width: 75%;
+    width: 78%;
     border: none;
     color: white;
     padding: 10px;
     border-radius: 5px;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 .fields__buttons {
     display: flex;
     justify-content: center;
 }
-
 
 #btnLogin > a {
     text-decoration: none;
@@ -92,8 +86,8 @@
 
 .fields__recovery {
     display: flex;
-    justify-content: center;
-    margin-bottom: 10%;
+    justify-content: flex-end;
+    margin-bottom: 20%;
 }
 
 .fields__create {
