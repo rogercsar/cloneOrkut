@@ -17,13 +17,13 @@
         width: 400px;
     }
 
-    #btnLogin{
+    #btnRecuperar{
         padding: 16px;
-        margin-bottom: 4%;
+        margin-bottom: 10%;
         width: 90%;
     }
 
-    #btnLogin > a {
+    #btnRecuperar > a {
         text-decoration: none;
         color: #ffffff;
         font-size: 16px;
